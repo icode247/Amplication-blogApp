@@ -1,1 +1,119 @@
+* {
+  padding:0px;
+  margin: 0px;
+  box-sizing: border-box;
+  transition: all .7s ease;
+}
 
+.auth-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.auth-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.login{
+  width: 50%;
+  margin: 40px;
+  box-shadow: 5px 7px 8px 7px #888888;
+  border-radius: 4px;
+  padding: 20px;
+
+}
+
+.login form input{
+  display: block;
+  padding: 10px;
+  margin: 4px;
+  width: 100%;
+}
+
+button{
+  padding: 10px;
+  width: 100%;
+  margin: 4px;
+}
+
+h4{
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.signup{
+  width: 50%;
+  margin: 40px;
+  box-shadow: 5px 7px 8px 7px #888888;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.signup form input{
+  display: block;
+  padding: 10px;
+  margin: 4px;
+  width: 100%;
+}
+.wrapper {
+  border-radius: 5px;
+  display: inline-block;
+  background: #fff;
+  position: relative;
+  margin: 0 100px;
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+  box-shadow: 0px 10px 25px #999;
+  padding: 7px;
+}
+p.header {
+  padding: 0 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p.content {
+  padding: 0 20px;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.button-center {
+  background-color: #d0cccc;
+  margin-top: 20px;
+}
+.leesmeer {
+  height: 40px;
+  width: 110px;
+  padding-left: 10px;
+  line-height: 40px;
+  margin: 0 auto;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.nav {
+  background: #000;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.nav li {
+  display: inline-block;
+  list-style: none;
+  height: 60px; 
+  line-height: 60px; 
+  padding: 0 40px; 
+  color: white;
+}
+.nav li:hover {
+  background: white;
+  transition: background .3s;
+  color: black;
+}
+
+.logout {
+ color: red;
+ cursor: pointer;
+}
